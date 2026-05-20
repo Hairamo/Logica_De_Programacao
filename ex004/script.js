@@ -3,7 +3,7 @@
 //Maiores de 18 voto obrigatório
 //Acima de 70 voto opcional
 
- var idade = 16;
+ var idade = 69;
 
 
 if(idade < 16){
