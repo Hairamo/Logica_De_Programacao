@@ -1,0 +1,21 @@
+h1 {  /* tag que quero formatar */
+    color: magenta;    /* propriedade color e valor midnightblue */
+}
+p {
+    color: darkred;
+}
+
+div {
+    border: 1px solid black;  /* As bordas das cores vermelhas divs ficam pretas */
+}
+
+#div1 {
+    background-color: green;
+    width: 50px;  /* Largura */
+    height: 300px;  /* Altura */
+}
+#div2 {
+    background-color: blue;
+    width: 50px;  /* Largura */
+    height: 300px;  /* Altura */
+}

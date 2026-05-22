@@ -1,0 +1,5 @@
+div {
+    border: 1px solid black; /* Borda da imagem */
+    height: 50px;    /* altura da imagem ou letras */
+    width: 50px;  /* largura da imagem */
+}
