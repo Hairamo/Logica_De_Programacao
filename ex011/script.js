@@ -12,6 +12,6 @@ function entrar() {
 
 function sair() {
     area.innerHTML = `Saiu!`
-    area.style.backgroundColor = `none`;
+    area.style.backgroundColor = `white`;
 
 }
