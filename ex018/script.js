@@ -1,9 +1,15 @@
-function click() {
-    let numero = Number(document.getElementById(`num1`).value)
+function verificar() {
+    let numero = Number(document.getElementById(`numero`).value)
     let verificar = document.getElementById(`resultado`)
+    
+    verificar.innerHTML = `<p> O numero é ${numero} `
 
     
     verificar.innerHTML = `O número ${numero}`
-
+    if(numero % 2){
+        verificar.innerHTML = `O numero é ${numero} impar.`
+    }else{
+        verificar.innerHTML = `O numero é ${numero} par.`
+    }
     
 }
