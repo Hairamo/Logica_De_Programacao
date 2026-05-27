@@ -6,10 +6,10 @@ function verificar() {
 
     
     verificar.innerHTML = `O número ${numero}`
-    if(numero % 2){
-        verificar.innerHTML = `O numero é ${numero} impar.`
-    }else{
+    if(numero % 2 == 0){
         verificar.innerHTML = `O numero é ${numero} par.`
+    }else{
+        verificar.innerHTML = `O numero é ${numero} impar.`
     }
     
 }
