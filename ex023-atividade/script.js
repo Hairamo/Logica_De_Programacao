@@ -16,4 +16,4 @@ console.log(`${numero} x ${cont} = ${multi}` )
 resultado.innerHTML += `<p> <strong>${numero} x ${cont} = ${multi}</strong><p>`  */
  
 
-}
+}cont>=5

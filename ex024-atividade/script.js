@@ -24,7 +24,7 @@ function certo() {
             } else {
                 resultado.innerHTML += `${inicio} \u{27A1}`
             }
-
+        }
         }else {
             for (inicio; inicio >= fim; inicio -= passo) {
                 if (inicio - passo < fim) {
@@ -37,4 +37,3 @@ function certo() {
         }
 
     }
-}
